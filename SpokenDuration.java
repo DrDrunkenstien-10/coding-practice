@@ -69,10 +69,10 @@ public class SpokenDuration {
 	public static void main(String[] args) {
 		test(3723, "1 hour, 2 minutes and 3 seconds");
 		test(7295, "2 hours, 1 minute and 35 seconds");
-        	test(8521, "2 hours, 22 minutes and 1 second");
-        	test(435, "7 minutes and 15 seconds");
-        	test(14455, "4 hours and 55 seconds");
-        	test(72000, "20 hours");
-        	test(1, "1 second");
+        test(8521, "2 hours, 22 minutes and 1 second");
+        test(435, "7 minutes and 15 seconds");
+        test(14455, "4 hours and 55 seconds");
+        test(72000, "20 hours");
+        test(1, "1 second");
 	}
 }
