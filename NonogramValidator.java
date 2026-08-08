@@ -44,9 +44,9 @@ public class NonogramValidator {
 
 	public static void main(String[] args) {
 		test(new int[]{3, 2}, new int[]{1, 1, 1, 0, 1, 1}, true);
-                test(new int[]{3, 2}, new int[]{0, 1, 1, 1, 1, 1}, false);
-                test(new int[]{1, 1, 1, 1}, new int[]{1, 0, 1, 0, 1, 0, 1, 0, 1}, false);
-                test(new int[]{1, 1, 1, 1}, new int[]{0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0}, true);
+        test(new int[]{3, 2}, new int[]{0, 1, 1, 1, 1, 1}, false);
+        test(new int[]{1, 1, 1, 1}, new int[]{1, 0, 1, 0, 1, 0, 1, 0, 1}, false);
+        test(new int[]{1, 1, 1, 1}, new int[]{0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0}, true);
 		test(new int[]{3, 2, 3}, new int[]{0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0}, true);
 		test(new int[]{3, 2, 3}, new int[]{0, 0, 0, 1, 0, 0, 1, 0, 0, 0}, false);
 	}
